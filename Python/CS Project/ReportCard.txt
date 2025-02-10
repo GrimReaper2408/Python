@@ -1,0 +1,9 @@
+||================================================||
+
+Roll Number: [('1')]
+Name of the Student: [('Anuvansh')]
+Address of the Student: [('House')]
+Contact Number of the Student: [(987)]
+Stream Chosen of the Student: [('Science')]
+
+||================================================||

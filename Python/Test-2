@@ -1,0 +1,5 @@
+#numpy
+import numpy as nd
+list1 = [1,2,3,4,5]
+num1 = nd.arange(2,10,2)
+print(num1)

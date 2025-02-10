@@ -1,0 +1,18 @@
+def checkprime(num):
+    a=0
+    if num<2:
+        print("Number is less than 2. This is refute test case.")
+        exit()
+    for x in range(2,num//2 + 1):
+        if num%x==0:
+            a=1
+            break
+    if a==1:
+        print("Not a prime.")
+    else:
+        print("Prime number.")
+    
+
+
+checkprime(int(input("Enter number:")))
+
