@@ -28,7 +28,7 @@ def menu():
 
 
 def add():
-    con = mc.connect(host="localhost", user="root", passwd='@ANIGAME0359')
+    con = mc.connect(host="localhost", user="root", passwd='Manav@123')
     cur = con.cursor()
     cur.execute("create database if not exists project;")
     cur.execute("use project")
@@ -46,7 +46,7 @@ def add():
     con.close()    
 
 def delete():
-    con = mc.connect(host="localhost", user="root", passwd='@ANIGAME0359')
+    con = mc.connect(host="localhost", user="root", passwd='Manav@123')
     cur = con.cursor()
     cur.execute("use project")
     print("Enter the role number of student whose details you want to forever remove. Non refundable.")
@@ -66,7 +66,7 @@ def delete():
     con.close()
 
 def update():
-    con = mc.connect(host="localhost", user="root", passwd='@ANIGAME0359')
+    con = mc.connect(host="localhost", user="root", passwd='Manav@123')
     cur = con.cursor()
     cur.execute("use project")
     print("Enter the roll number of the student whose details you would like to edit.")
@@ -99,7 +99,7 @@ def update():
     con.close()
 
 def show():
-    con = mc.connect(host="localhost", user="root", passwd='@ANIGAME0359')
+    con = mc.connect(host="localhost", user="root", passwd='Manav@123')
     cur = con.cursor()
     cur.execute("use project")
     cur.execute("select * from students")
@@ -109,7 +109,7 @@ def show():
     con.close()
 
 def prints(r):
-    con = mc.connect(host="localhost", user="root", passwd='@ANIGAME0359')
+    con = mc.connect(host="localhost", user="root", passwd='Manav@123')
     cur = con.cursor()
     cur.execute("use project")
     printobject=open("prints.txt","r")
@@ -173,7 +173,7 @@ def clientlogin():
         time.sleep(0.03)
     clientobject.close()
     r=int(input("Enter The Roll Number: "))
-    con = mc.connect(host="localhost", user="root", passwd='@ANIGAME0359')
+    con = mc.connect(host="localhost", user="root", passwd='Manav@123')
     cur = con.cursor()
     cur.execute("use project")
     cur.execute("select * from students where rno = {}".format(r))
